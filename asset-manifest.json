@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/smart-asset-tokenization-frontend/static/css/main.d7024b8d.chunk.css",
+    "main.js": "/smart-asset-tokenization-frontend/static/js/main.de4c7576.chunk.js",
+    "main.js.map": "/smart-asset-tokenization-frontend/static/js/main.de4c7576.chunk.js.map",
+    "runtime-main.js": "/smart-asset-tokenization-frontend/static/js/runtime-main.eb61dee7.js",
+    "runtime-main.js.map": "/smart-asset-tokenization-frontend/static/js/runtime-main.eb61dee7.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/smart-asset-tokenization-frontend/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.97c8c19f.chunk.js": "/smart-asset-tokenization-frontend/static/js/2.97c8c19f.chunk.js",
+    "static/js/2.97c8c19f.chunk.js.map": "/smart-asset-tokenization-frontend/static/js/2.97c8c19f.chunk.js.map",
+    "static/js/3.8adf4ee4.chunk.js": "/smart-asset-tokenization-frontend/static/js/3.8adf4ee4.chunk.js",
+    "static/js/3.8adf4ee4.chunk.js.map": "/smart-asset-tokenization-frontend/static/js/3.8adf4ee4.chunk.js.map",
+    "index.html": "/smart-asset-tokenization-frontend/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/smart-asset-tokenization-frontend/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d7024b8d.chunk.css.map": "/smart-asset-tokenization-frontend/static/css/main.d7024b8d.chunk.css.map",
+    "static/js/2.97c8c19f.chunk.js.LICENSE.txt": "/smart-asset-tokenization-frontend/static/js/2.97c8c19f.chunk.js.LICENSE.txt",
+    "static/media/graph_png.8497296d.png": "/smart-asset-tokenization-frontend/static/media/graph_png.8497296d.png",
+    "static/media/map.99223533.jpg": "/smart-asset-tokenization-frontend/static/media/map.99223533.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb61dee7.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.97c8c19f.chunk.js",
+    "static/css/main.d7024b8d.chunk.css",
+    "static/js/main.de4c7576.chunk.js"
+  ]
+}
