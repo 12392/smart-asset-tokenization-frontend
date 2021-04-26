@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css\mystyle.css" />
+    <link rel="stylesheet" href="css\tabs.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <div class="">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg_custom border_radius"
+        >
+          <div class="collapse navbar-collapse m-1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ml-4">
+                <a class="nav-link" href="#">DASHBOARD</a>
+              </li>
+              <li class="nav-item ml-4">
+                <a class="nav-link clicked" href="#">SYSTEM</a>
+              </li>
+              <li class="nav-item ml-4">
+                <a class="nav-link" href="#">ACCOUNT</a>
+              </li>
+              <li class="nav-item ml-4">
+                <a class="nav-link" href="#">SUPPORT</a>
+              </li>
+            </ul>
+            <form class="form-inline my-lg-0">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown mr-4">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    My Account
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Dashboard</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Signout</a>
+                  </div>
+                </li>
+                <li class="nav-item mr-4">
+                  <a class="nav-link" href="#">HELP</a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </nav>
+        <!-- navbar ends -->
+        <!-- second row start -->
+        <div class="p-3">
+          <h4 class="font_sm">System List</h4>
+          <ul class="navbar-nav mr-auto row_dir">
+            <li class="nav-item mr-4">
+              <a class="nav-link font_sm" href="#">Mark Remdiswormarg</a>
+            </li>
+            <li class="nav-item dropdown mr-4">
+              <a
+                class="nav-link dropdown-toggle font_sm"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Microventor 030213999882
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">#</a>
+                <a class="dropdown-item" href="#">#</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">#</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="tabs">
+              <div
+                role="tablist"
+                aria-label="Entertainment"
+                class="top"
+                id="tabss"
+              >
+                <button
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="nils-tab"
+                  id="nils"
+                  active
+                >
+                  View
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="agnes-tab"
+                  id="agnes"
+                  tabindex="-1"
+                  disabled=""
+                >
+                  Graph
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="complexcomplex"
+                  id="complex"
+                  tabindex="-1"
+                  data-deletable=""
+                  disabled=""
+                >
+                  Reports
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="complexcomplex"
+                  id="complex"
+                  tabindex="-1"
+                  data-deletable=""
+                  disabled=""
+                >
+                  Events
+                </button>
+              </div>
+              <div
+                tabindex="0"
+                role="tabpanel"
+                id="nils-tab"
+                aria-labelledby="nils"
+              >
+                <ul class="navbar-nav mr-auto row_dir ml-2">
+                  <li class="nav-item dropdown mr-4">
+                    <a
+                      class="nav-link dropdown-toggle font_sm1"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Power:Past 7 Days
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">#</a>
+                      <a class="dropdown-item" href="#">#</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">#</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown mr-4">
+                    <p class="nav-link font_sm12" href="#">
+                      Apr 23,2015 - Apr 29,2015
+                    </p>
+                  </li>
+                </ul>
+                <!--Table-->
+                <div class="row">
+                  <div class="col-lg-9" style="position: relative">
+                    <table class="table table-striped">
+                      <!--Table head-->
+                      <!--Table head-->
+                      <!--Table body-->
+                      <tbody>
+                        <tr>
+                          <img
+                            src="./images/graph_png.png"
+                            class="ml-4"
+                            style="
+                              position: absolute;
+                              height: 347px;
+                              width: 90%;
+                            "
+                          />
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr class="table-info">
+                          <th scope="row" class="text_color"></th>
+                          <td class="text_color"></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      <!--Table body-->
+                    </table>
+                    <div class="p-2">
+                      <h4>Maximum Produced</h4>
+                      <p class="m-0 font_big"><strong>660</strong> W</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="border border-dark d-flex p-3 radius">
+                      <div>
+                        34 Maleysiyansas
+                        <p>Jd malay<br />Gattesangarghs CA</p>
+                      </div>
+                      <div class="ml-4 d-flex mt-3">
+                        <h3><i>47.5</i></h3>
+                        <div>
+                          <img
+                            src="./images/rain.jpg"
+                            class="img-fluid smimg ml-3"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg_custom text-white">
+                      <p class="ml-1 leftt p-2">Microinverter 0980128312</p>
+                    </div>
+                    <div>
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            data-toggle="tab"
+                            href="#home"
+                            >Energy</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#menu1"
+                            >Status</a
+                          >
+                        </li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content border border-dark">
+                        <div id="home" class="container tab-pane active">
+                          <br />
+                          <div class="">
+                            <p class="font_orange">Today</p>
+                            <p class="m-0 font_big"><strong>660</strong> Wh</p>
+                            <div class="bg-blue">
+                              <p class="font_orange">Past 7 Days</p>
+                              <p class="m-0 font_big">
+                                <strong>682</strong> kWh
+                              </p>
+                            </div>
+                            <p class="font_orange">Month to Date</p>
+                            <p class="m-0 font_big">
+                              <strong>27.0</strong> kWh
+                            </p>
+                            <div class="bg-blue">
+                              <p class="font_orange">Lifetime</p>
+                              <p class="m-0 font_big">
+                                <strong>1.58</strong> MWh
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="menu1" class="container tab-pane fade">
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Table-->
+        <!-- second row end -->
+      </div>
+    </div>
+    <script src=".\js\tabs.js"></script>
+  </body>
+</html>
